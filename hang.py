@@ -1,3 +1,8 @@
+import random
+import urllib.request
+
+class hangman:
+
     def hangman():
         #Pre-game variables
         game = True
@@ -81,3 +86,5 @@
             if (lives == 0):
                 print("That's Hangman - Game Over! The word was '%s'\n ___\n|   |\n|   O\n|  -|-\n|   ^" % chosen)
                 game = False
+
+hangman.hangman()
